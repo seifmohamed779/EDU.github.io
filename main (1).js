@@ -45,6 +45,6 @@ if (loginForm) {
     const user = JSON.parse(data);
     if (user.password !== password) return alert("Wrong password!");
     alert(`Welcome back, ${user.username}!`);
-    window.location.href = "home.html";
+    window.location.href = "main.html";
   };
 }
