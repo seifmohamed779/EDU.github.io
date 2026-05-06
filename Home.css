@@ -220,7 +220,18 @@ color: white;
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 50px 20px;
+    padding: 50px 0px;
+    margin-left: -15px;
+}
+.reviews-section h3{
+    font-size: 24px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    margin-bottom: 40px;
+    position: relative;
+    top: -35vh;
+    left: 95vh;
 }
 
 .title-container {
