@@ -27,7 +27,7 @@ if (signupForm) {
     localStorage.setItem(email, JSON.stringify(user));
 
     alert("Account created successfully!");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   };
 }
 
